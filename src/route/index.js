@@ -25,6 +25,21 @@ router.get('/summary', function (req, res) {
     // ↙ сюди вводимо JSON дані
   })
 })
+name: {
+  firstname: 'Ivan',
+  lastname: 'Ivanov',
+},
+
+position: 'Junior Fullstack JS Developer',
+
+social: {
+  email: {
+    text: 'ivanov@mail.com',
+    href: 'mailto:ivanov@mail.com',
+  },
+},
+
+salary: '600$ в місяць'
 
 // ================================================================
 
